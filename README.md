@@ -1,10 +1,14 @@
-# vue3_todo
+# vue3_todo 
 Todoリストをコンポーネント化
 
-localstorageで値の保存完成
+<<<<<<< HEAD
+ローカルストレージで値の保存完成
 
 main 
 
+=======
+main 
+>>>>>>> 82200b6d22c59d428718cdfe3dc6ab5dc3881508
 App.vue
 
 親 
@@ -18,14 +22,22 @@ App.vue
 ./src/components/PropTest.vue 
 ※PropTestはPropsの動作確認用で作成 
  
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 82200b6d22c59d428718cdfe3dc6ab5dc3881508
 テストコード作成 
 
 ./tests/unit/todo.spec.ts 
 
 使用したもの 
+<<<<<<< HEAD
 Jest/vue-test-utils/bootstrap5
+=======
+Jest ・　
+vue/test-utils 
+>>>>>>> 82200b6d22c59d428718cdfe3dc6ab5dc3881508
  
 CSSはBootstrap5をImport予定　
 
@@ -36,6 +48,10 @@ CSSはBootstrap5をImport予定　
 現状各要素の存在の確認方法しか理解できていない 
 
 DisplayTodo.vue内でテストデータを使用した動作確認方法が不明 
+<<<<<<< HEAD
+=======
+ 
+>>>>>>> 82200b6d22c59d428718cdfe3dc6ab5dc3881508
 ## Project setup
 ```
 npm install
