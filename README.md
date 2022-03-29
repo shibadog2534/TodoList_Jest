@@ -16,16 +16,21 @@ App.vue
 ※PropTestはPropsの動作確認用で作成 
  
 テストコード作成 
+
 ./tests/unit/todo.spec.ts 
+
 使用したもの 
-Jest 
+Jest ・　
 vue/test-utils 
  
 CSSはBootstrap5をImport予定　
 
 課題 
+
 テストコードに対する理解 
+
 現状各要素の存在の確認方法しか理解できていない 
+
 DisplayTodo.vue内でテストデータを使用した動作確認方法が不明 
  
 ## Project setup
