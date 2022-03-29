@@ -2,8 +2,7 @@
 Todoリストをコンポーネント化
 
 main 
-
-App.vue 
+App.vue
 
 親 
 
