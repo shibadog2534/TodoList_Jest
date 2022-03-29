@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="main">
     <DisplayTodo/>
   </div>
 </template>
@@ -14,9 +14,6 @@ export default {
 </script>
 
 <style>
-</style>
-
-<style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -24,5 +21,10 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+.main {
+  margin-left:auto;           /* IE以外用の中央寄せ */
+  margin-right:auto;          /* IE以外用の中央寄せ */
+  width:50%;                /* 幅 */
 }
 </style>

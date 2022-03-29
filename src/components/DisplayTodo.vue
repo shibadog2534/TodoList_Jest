@@ -1,14 +1,25 @@
 // eslint-disable-next-line import/no-duplicates
 <template>
   <div>
-    Display
+    ToDoリスト
     <InputTodo @inpDATA='inpDATA'/>
-    <div>
-      <ul>
-        <li v-for="(todo,index) in todos" :key="index">{{ todo }}
-        <button @click="removeTodo(index,todo)">delete</button>
+    <div class="parent-box flex-box-between">
+      <table >
+          <tr v-for="(todo,index) in todos" :key="index" class="list-group-item">
+            <td class="td1">{{ todo }}</td>
+            <td><button @click="removeTodo(index,todo)" type="button" class="btn btn-primary">完了</button></td>
+          </tr>
+      </table>
+      <!-- <ul class="list-group">
+        <li v-for="(todo,index) in todos" :key="index" class="list-group-item">{{ todo }}
+          <button @click="removeTodo(index,todo)" type="button" class="btn btn-primary">完了</button>
         </li>
-      </ul>
+      </ul> -->
+      <!-- <ul>
+        <li v-for="(todo,index) in todos" :key="index">{{ todo }}
+        <button type="button" class="btn btn-primary" @click="removeTodo(index,todo)">完了</button>
+        </li>
+      </ul> -->
     </div>
     <!-- Propの実験 -->
     <PropTest :saveData="todos"/>
@@ -79,8 +90,16 @@ export default defineComponent({
 })
 </script>
 
-<style>
+<style scoped>
 ul {
   list-style: none;
+}
+
+table{
+  width:100%;
+  table-layout: fixed;
+}
+.td1{
+  width:90%;
 }
 </style>

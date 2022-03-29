@@ -1,23 +1,41 @@
 # vue3_todo
 Todoリストをコンポーネント化
-親
-./src/components/DisplayTodo.vue
-子
-./src/components/InputTodo.vue
-./src/components/PropTest.vue
-PropTestはPropsの動作確認用で作成
 
-テストコード作成
-./tests/unit/todo.spec.ts
-使用したもの
-Jest
-vue/test-utils
+localstorageで値の保存完成
 
-課題
-テストコードに対する理解
-現状各要素の存在の確認方法しか理解できていない
-DisplayTodo.vue内でテストデータを使用した動作確認方法が不明
+main 
 
+App.vue
+
+親 
+
+./src/components/DisplayTodo.vue 
+
+子 
+
+./src/components/InputTodo.vue 
+
+./src/components/PropTest.vue 
+※PropTestはPropsの動作確認用で作成 
+ 
+
+
+テストコード作成 
+
+./tests/unit/todo.spec.ts 
+
+使用したもの 
+Jest/vue-test-utils/bootstrap5
+ 
+CSSはBootstrap5をImport予定　
+
+課題 
+
+テストコードに対する理解 
+
+現状各要素の存在の確認方法しか理解できていない 
+
+DisplayTodo.vue内でテストデータを使用した動作確認方法が不明 
 ## Project setup
 ```
 npm install

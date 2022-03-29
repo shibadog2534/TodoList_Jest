@@ -1,7 +1,11 @@
 <template>
   <div>
-    <input v-model="todoValue" input-todo>
-    <button @click="sendTodo">送信</button>
+    <!-- <input v-model="todoValue" input-todo>
+    <button @click="sendTodo">送信</button> -->
+    <div class="input-group mb-3 mt-3">
+    <input type="text" class="form-control" v-model="todoValue" input-todo placeholder="予定を入力" aria-label="Recipient's username" aria-describedby="button-addon2">
+    <button type="button" class="btn btn-success" @click="sendTodo">保存</button>
+</div>
   </div>
 </template>
 
