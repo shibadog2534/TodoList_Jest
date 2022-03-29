@@ -1,11 +1,18 @@
 # vue3_todo 
-Todoリストをコンポーネント化 
+Todoリストをコンポーネント化
+
 main 
+
 App.vue 
+
 親 
+
 ./src/components/DisplayTodo.vue 
+
 子 
+
 ./src/components/InputTodo.vue 
+
 ./src/components/PropTest.vue 
 ※PropTestはPropsの動作確認用で作成 
  
